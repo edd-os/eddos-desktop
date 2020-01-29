@@ -1,0 +1,4 @@
+#!/bin/sh
+. "${XDG_DATA_HOME:-$HOME/.local/share}/eddos/eddos.sh"
+transparent_copr_enable pschyska/alacritty
+transparent_install alacritty
