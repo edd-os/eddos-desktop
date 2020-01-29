@@ -1,0 +1,7 @@
+#!/bin/sh
+. "${XDG_DATA_HOME:-$HOME/.local/share}/eddos/eddos.sh"
+
+while read package; do
+	transparent_remove "$package"
+done < "$MCM_DOTFILES_DIR/edd-os:eddos-core/hooks/packages.txt"
+
