@@ -1,11 +1,8 @@
-set $term alacritty
-set $menu bemenu-run -p ""
+set $term alacritty -e tmux
+set $menu bemenu-run -p "" | xargs swaymsg exec --
 set $browser firefox
 set $explorer alacritty -e "env EDITOR=nvim NNN_PLUG=\"t:thumb\" nnn"
 
 # Start common programs
-bindsym $mod+Return exec $term
-bindsym $mod+Shift+q kill
-bindsym $mod+d exec $menu
 bindsym $mod+z exec $browser
 bindsym $mod+n exec $explorer

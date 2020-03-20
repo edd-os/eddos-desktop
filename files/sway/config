@@ -1,3 +1,4 @@
+set $mod Mod4
 include ./auto_include/*
 include ./common_programs
 
@@ -9,7 +10,6 @@ gaps outer 4
 
 # Keyboard mappings
 input * xkb_layout "gb"
-set $mod Mod4
 set $left h                                           
 set $down j
 set $up k

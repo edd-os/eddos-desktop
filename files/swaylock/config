@@ -1,0 +1,13 @@
+screenshots
+clock
+datestr=%A, %Y-%m-%d
+indicator
+indicator-radius=100
+indicator-thickness=7
+effect-blur=10x7
+ring-color=0066cc
+key-hl-color=880033
+line-color=00000000
+inside-color=00000088
+separator-color=00000000
+text-color=dddddd

@@ -1,4 +1,6 @@
 mesa-dri-drivers
 sway
-firefox
 bemenu
+mupdf
+mako
+libnotify
