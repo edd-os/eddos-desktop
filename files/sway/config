@@ -134,4 +134,14 @@ bindsym $mod+r mode "resize"
 # Make focussed window magenta bordered
 client.focused #4c7899 #285577 #ffffff #2e9ef4 #ff00ff
 
+#
+# Status Bar:                                                           
+#                                                                 
+# Read `man 5 sway-bar` for more information about this section.
+bar {           
+    # i3status is configured in $XDG_CONFIG_HOME/i3status/config
+    position top
+    status_command i3status
+}
+
 include /etc/sway/config.d/*
