@@ -6,7 +6,7 @@
 
 include ./localisation
 include ./default_key_bindings
-#include ./common_programs
+include ./common_programs
 include ./ricing
 include ./auto_include/*
 
