@@ -1,0 +1,6 @@
+# Enable natural scrolling
+input type:touchpad {
+	natural_scroll enabled
+	tap enabled
+	dwt enabled
+}

@@ -1,0 +1,6 @@
+smart_borders on
+default_border pixel
+gaps inner 7
+gaps outer 4
+# Configure focussed window border colour
+client.focused #FF00FF #FF00FF #FF00FF #FF00FF #FF00FF 
